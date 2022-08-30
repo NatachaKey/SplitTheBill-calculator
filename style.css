@@ -37,27 +37,32 @@ h1{
 
 input{
     font-family: 'Montserrat', sans-serif;
-    padding: 6px;
+    padding: 15px;
   font-weight: bolder;
+   font-size:15px;
 }
 
 #addTip {
     background-color:#F7EC09;
     border: none;
     border-radius: 10px;
-    padding: 5px;
+    padding: 15px;
     font-family: 'Montserrat', sans-serif;
   font-weight: bolder;
+  color: #42032C;
+  font-size:15px;
     }
     
     #btn {
     background-color: #F37878;
-    padding: 10px;
+    padding: 20px;
     border-radius: 10px;
     border: none;
     margin-top: 10px;
     font-family: 'Montserrat', sans-serif;
       font-weight: bolder;
+      color: #42032C;
+       font-size:15px;
     }
 
     #tip{
@@ -83,5 +88,8 @@ input{
     }
 
     option{
+      margin-top:15px;
         border-radius: 10px;
+      padding:15px;
+      font-size:15px;
     }

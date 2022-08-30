@@ -1,5 +1,6 @@
-gsap.from("#container", {y:300, delay:0.2, duration:3, opacity:0.5, ease:"power4.out"})
-
+gsap.from("#container", {y:300, delay:0.4, duration:3, opacity:0, ease:"power4.out"})
+gsap.from("form", {x:-300, delay:0.6, duration:2, opacity:0, ease:"power4.out"})
+gsap.from("#showTotalAmountToPay", {x:300, delay:0.6, duration:2, opacity:0, ease:"power4.out"})
 
 const button = document.querySelector("#btn");
 button.addEventListener("click", calculateAmount);
