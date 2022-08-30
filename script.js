@@ -1,3 +1,6 @@
+gsap.from("#container", {y:300, delay:0.2, duration:3, opacity:0.5, ease:"power4.out"})
+
+
 const button = document.querySelector("#btn");
 button.addEventListener("click", calculateAmount);
 
@@ -17,7 +20,7 @@ function calculateAmount(e){
     const people= document.querySelector("#people").value;
     const tip= document.querySelector("#tip").value;
 
-if (bill === "" || people ==="" || people<1 || people == NaN || bill <0) {
+if (bill === "" || people ==="" || people<1 || isNaN(people) || isNaN(bill) || bill <0) {
     Swal.fire({
         icon: 'error',
         title: 'Error',
