@@ -1,5 +1,5 @@
 body {
-    background-image: url("https://images.unsplash.com/photo-1600628421066-f6bda6a7b976?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGZvb2QlMjBmcmllbmRzfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60");
+    background-image: url("https://images.unsplash.com/photo-1592417817038-d13fd7342605?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -8,13 +8,14 @@ body {
 }
 
 #container {
-    background-color:rgba(94, 97, 93, 0.9);
+    background-color: #fff;
+  opacity:.8;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    width: 600px;
-    height: 725px;
-    border-radius: 40px;
+  height: 800px ;
+  width: 500px;
+    border-radius: 20px;
     color: white;
 }
 
@@ -28,8 +29,9 @@ form{
 
 h1{
     font-family: 'Montserrat', sans-serif;
-    color: #F7D8F0;
+    color: #42032C;
     align-self: center;
+ 
 }
 
 input{
