@@ -9,14 +9,15 @@ body {
 
 #container {
     background-color: #fff;
-  opacity:.8;
+  opacity:.9;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
   height: 800px ;
   width: 500px;
     border-radius: 20px;
-    color: white;
+    color: #AC7088;
+  font-weight: bolder;
 }
 
 form{
@@ -37,23 +38,26 @@ h1{
 input{
     font-family: 'Montserrat', sans-serif;
     padding: 6px;
+  font-weight: bolder;
 }
 
 #addTip {
-    background-color:#78DEC7;
+    background-color:#F7EC09;
     border: none;
     border-radius: 10px;
     padding: 5px;
     font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
     }
     
     #btn {
-    background-color: #F7DBF0;
+    background-color: #F37878;
     padding: 10px;
     border-radius: 10px;
     border: none;
     margin-top: 10px;
     font-family: 'Montserrat', sans-serif;
+      font-weight: bolder;
     }
 
     #tip{
@@ -69,7 +73,9 @@ input{
 
     #billSplit, #totalTip, #totalAmount{
         font-family: 'Montserrat', sans-serif;
-        background-color: #7ec9b8;
+      font-weight: bolder;
+        background-color: #CEE5D0;
+      color: #42032C;
         margin: 20px;
         padding: 20px;
         border-radius: 10px;
