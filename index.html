@@ -7,74 +7,67 @@
       <title>Split the bill</title>
       <link rel="stylesheet" href="style.css">
       <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
    </head>
-   <body>
 
-    <div id="container">
-        <h1>Let's split our bill</h1>
-
-        <form>
-            <p>Bill </p>
-
-            <span>$ 
-            <input type="text" id="bill" placeholder="Bill">
-            </span>
-
-            <p>Number of people </p>
-            <span>
-            <input type="text" id="people" placeholder="How many people?">
-            </span>
-            <p> Did you like the service? </p>
-
-            <button id="addTip">Add a tip </button>
-
-            <select id="tip">
-                <option disabled>Select an option</option>
-                <option value="0.30">Wow!🤩 30%</option>
-                <option  value="0.20">Good service!😄 20%</option>
-                <option   value="0.10">It was ok.🙂 10%</option>
-                <option  selected value="0.00">No tip.😐 </option>
-            </select>
-
-            <button id="btn">Calculate</button>
-
-        </form>
-
-        <div id="showTotalAmountToPay">
-            <div id="billSplit">
-                <p>Bill</p>
-                <span>$</span>
-                <span id="dividedBill"></span>
-                <span>per person</span>
-            </div>
-            
-            <div id="totalTip">
-                <p>Tip</p>
-                <span>$</span>
-                <span id="dividedTip"></span>
-                <span>per person</span>
-            </div>
-
-
-            <div id="totalAmount">
-                <p>Total</p>
-                <span>$</span>
-                <span id="billAndTip"></span>
-                <span>per person</span>
-            </div>
-        </div>
-
-
-
-
-    </div>
-
-
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/gsap.min.js"></script>
-
-    <script src="script.js"></script>
-   </body>
+<body>
+   <div id="container">
+     
+      <h1>Let's split our bill</h1>
+     
+      <form>
+         <p>Bill </p>
+         <span>$ 
+         <input type="text" id="bill" placeholder="Bill">
+         </span>
+         <p>Number of people </p>
+         <span>
+         <input type="text" id="people" placeholder="How many people?">
+         </span>
+         <p> Did you like the service? </p>
+        
+         <button id="addTip">Add a tip </button>
+        
+         <select id="tip">
+            <option disabled>Select an option</option>
+            <option value="0.30">Wow!🤩 30%</option>
+            <option value="0.20">Good service!😄 20%</option>
+            <option value="0.10">It was ok.🙂 10%</option>
+            <option selected value="0.00">No tip.😐 </option>
+         </select>
+        
+         <button id="btn">Calculate</button>
+      </form>
+     
+      <div id="showTotalAmountToPay">
+        
+         <div id="billSplit">
+            <p>Bill</p>
+            <span>$</span>
+            <span id="dividedBill"></span>
+            <span>per person</span>
+         </div>
+        
+         <div id="totalTip">
+            <p>Tip</p>
+            <span>$</span>
+            <span id="dividedTip"></span>
+            <span>per person</span>
+         </div>
+        
+         <div id="totalAmount">
+            <p>Total</p>
+            <span>$</span>
+            <span id="billAndTip"></span>
+            <span>per person</span>
+         </div>
+        
+      </div>
+   </div>
+  
+   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/gsap.min.js"></script>
+   <script src="script.js"></script>
+</body>
 </html>
